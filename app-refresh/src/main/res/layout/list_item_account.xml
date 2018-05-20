@@ -20,7 +20,7 @@
         android:paddingEnd="@dimen/double_margin"
         android:paddingBottom="@dimen/single_margin">
 
-        <android.widget.TextView
+        <TextView
             android:id="@+id/accountNameEditText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             app:layout_constraintWidth_percent="0.25"
             tools:text="Testinsadfasdfag" />
 
-        <android.widget.TextView
+        <TextView
             android:id="@+id/accountBalanceEditText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             app:textColorResource="@{viewModel.textColorResource}"
             tools:text="$1,000,000.00" />
 
-        <android.widget.ImageView
+        <ImageView
             android:id="@+id/deposit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_add_green_24dp" />
 
-        <android.widget.ImageView
+        <ImageView
             android:id="@+id/withdrawal_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
